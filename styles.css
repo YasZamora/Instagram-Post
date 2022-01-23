@@ -1,0 +1,46 @@
+body {
+    background: black;
+    margin: auto;
+}
+div {
+    box-sizing: border-box;
+}
+.post {
+    background: white;
+    height: 80%;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 600px;
+}
+
+.post .post-header {
+    display: inline-flex;
+    width: 100%;
+    font-size: 36px;
+    padding: 15px;
+}
+.post .post-header .section-A{
+width: 10%;
+text-align: center;
+padding-top: 5px;
+}
+.post .post-header .section-B {
+    width: 75%;
+    font-size: large;
+    }   
+.post .post-header .section-C{
+    width: 15%;
+    text-align: right;
+  }
+.post .post-body img {
+    width: 100%;
+}
+
+.post .post-footer{
+    padding: 10px;
+    width: 100%;
+}
+.post .post-footer .iconos {
+    font-size: 32px;
+}
